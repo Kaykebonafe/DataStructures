@@ -77,8 +77,14 @@ public:
         No<T>* atual = busca(valor);
         No<T>* anterior = atual->pai;
         if(filhos(atual) == 0){
-            //if
-        } else if (filhos((atual) == 1)){
+            if(atual == anterior->esq)
+                anterior->esq = nullptr;
+            else if (atual == anterior->dir)
+                anterior->dir = nullptr;
+            delete atual;
+        }
+
+        else if (filhos(atual) == 1){
             No<T>* filho = atual->esq;
             if(!filho)
                 filho = atual->dir;
@@ -90,7 +96,9 @@ public:
             }
             filho->pai = anterior;
             delete atual;
-        } else {
+        }
+
+        else {
             No<T>* antes = antecessor(atual);
             T temp = antes->valor;
             remove(temp);
@@ -115,6 +123,7 @@ public:
             imprime(n->dir);
         }
     }
+
     void imprime(){
         imprime(raiz);
     }
@@ -127,6 +136,7 @@ public:
         else if(!n->esq && !n->dir){
             return 0;
         }
+
         else
             return 1;
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/unifkluca/CLionProjects/Arvore/Arvore/main.cpp" "C:/Users/unifkluca/CLionProjects/Arvore/Arvore/cmake-build-debug/CMakeFiles/Arvore.dir/main.cpp.obj"
+  "C:/Users/T-Gamer/CLionProjects/Arvore/Arvore/main.cpp" "C:/Users/T-Gamer/CLionProjects/Arvore/Arvore/cmake-build-debug/CMakeFiles/Arvore.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

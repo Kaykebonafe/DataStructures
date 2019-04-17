@@ -16,14 +16,14 @@ int main() {
     a.insere(22);
 
     a.imprime();
+    cout << endl;
     a.remove(16);
-   // a.remove(18);
-    //a.remove(20);
+    a.remove(18);
+    a.remove(20);
     a.imprime();
-
-    //system("pause");
-    //a.remove(10);
-    //a.imprime();
+    cout << endl;
+    a.remove(10);
+    a.imprime();
 
     return 0;
 }

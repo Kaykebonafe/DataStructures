@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "Arvore.pdb"
   "Arvore.exe"
   "Arvore.exe.manifest"
-  "libArvore.dll.a"
+  "Arvore.lib"
 )
 
 # Per-language clean rules from dependency scanning.
