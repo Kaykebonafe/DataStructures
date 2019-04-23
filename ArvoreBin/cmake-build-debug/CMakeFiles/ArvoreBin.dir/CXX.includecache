@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/T-Gamer/CLionProjects/ArvoreBin/ArvoreBin.h
+iostream
+-
+No.h
+C:/Users/T-Gamer/CLionProjects/ArvoreBin/No.h
+
+C:/Users/T-Gamer/CLionProjects/ArvoreBin/No.h
+iostream
+-
+
+C:/Users/T-Gamer/CLionProjects/ArvoreBin/main.cpp
+iostream
+-
+ArvoreBin.h
+C:/Users/T-Gamer/CLionProjects/ArvoreBin/ArvoreBin.h
+
